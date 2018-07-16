@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Jlib
 {
-    public class Class1
+    public class FileIO
     {
     }
 }
