@@ -33,6 +33,12 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.DirectoryServices.AccountManagement" />
+    <Reference Include="System.DirectoryServices.Protocols" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.Speech" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -43,7 +49,7 @@
   <ItemGroup>
     <Compile Include="JADbitlocker.cs" />
     <Compile Include="JADuser.cs" />
-    <Compile Include="JDirectory.cs" />
+    <Compile Include="JADirectory.cs" />
     <Compile Include="JFileIO.cs" />
     <Compile Include="Jlog.cs" />
     <Compile Include="JPowerOptions.cs" />
@@ -53,6 +59,7 @@
     <Compile Include="JStringExt.cs" />
     <Compile Include="JWMI.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TextRead.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
